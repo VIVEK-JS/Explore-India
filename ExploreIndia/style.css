@@ -1,0 +1,139 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+
+header{
+    background-color:skyblue;
+    color: white;
+    height: 40px;
+    border: 5px solid red;
+    background-image: url('https://cdn5.vectorstock.com/i/1000x1000/21/69/india-background-vector-1802169.jpg');
+}
+nav{
+    padding-left: 30px;
+}
+
+.header-text{
+    color: black;
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: 1000; 
+    font-size: x-large;  
+    padding-left: 30px;
+}
+
+svg path:hover{
+    fill: #006284;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.tooltiptext{
+    display: none;
+    width: 140px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    transition: 00.6s;
+}
+
+
+
+ section{
+      display: flex;
+      padding: 10px;
+      justify-content: space-around;
+        background-image:url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png") ;
+
+  }
+  .mapContainer{
+      height: 800px;
+      background-color: whitesmoke;
+      box-shadow: -10px 10px 20px 0 ;
+      border-radius: .50rem;
+      background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+
+  }
+  .info{
+    width: 50%;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: -10px 10px 20px 0 ;
+    border-radius: .50rem;
+    background-color: skyblue;
+
+
+  }
+  #all-cards{
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  .card.card1{
+    margin-top: 20px;
+    overflow: hidden;
+    width: 20rem;
+    background-color:  white;
+    box-shadow: -10px 10px 20px 0 ;
+    border-radius: .50rem;
+    
+}
+#images{
+    height: 100;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+#state-name{
+    font-size: large;
+}
+#state-name{
+    margin: 5px;
+}
+.txt-card{
+    font-size:large;
+    font-weight: 500;
+    font-style: italic;
+}
+.txt-cardd{
+    font-size:large;
+    font-weight: bold;
+}
+.lead{
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media(max-width:1000px){
+
+
+.info{
+    display: none;
+
+
+
+  }
+  .mapContainer{
+    height: 800px;
+    width: 100%;
+    height: auto;
+
+  }
+#map{
+    width: 100%;
+}
+}
